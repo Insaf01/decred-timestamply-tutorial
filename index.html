@@ -1,29 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Decred's Timestamply Tutorial</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your custom CSS file -->
+  <title>Timestamply Tutorial</title>
 </head>
 <body>
-    <header>
-        <h1>Decred's Timestamply Tutorial</h1>
-        <nav>
-            <ul>
-                <li><a href="docs/01_getting_started.html">Getting Started</a></li>
-                <li><a href="docs/02_how_timestamping_works.html">How Does Timestamping Work?</a></li>
-                <!-- Add more navigation links as needed -->
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>Welcome to Decred's Timestamply Tutorial!</h2>
-        <p>This tutorial will guide you through the process of using Timestamply, a tool developed by Decred for timestamping and verifying digital documents.</p>
-        <p>Choose a chapter from the navigation menu to get started.</p>
-    </main>
-    <footer>
-        <p>&copy; 2023 Insaf</p>
-    </footer>
-</body>
-</html>
+  <h1>Tutorial: Using Timestamply by Decred</h1>
+
+  <h2>Introduction</h2>
+  <p>Timestamply is a tool that proves the existence of something at a specific point in time. It provides decentralized and secure public proof of existence without the need for trusted authorities. Timestamply has various applications, including attestation, transparency in political processes, and legal contracts.</p>
+
+  <h2>Steps to Use Timestamply</h2>
+
+  <h3>Step 1: Create a Timestamp</h3>
+  <ul>
+    <li>Go to <a href="https://timestamp.decred.org">timestamp.decred.org</a>.</li>
+    <li>Drag and drop a digital file into the upload area.</li>
+    <li>The file generates a unique 32-byte string called a Merkle root or hash.</li>
+    <li>Keep the digital file unaltered after uploading.</li>
+  </ul>
+
+  <h3>Step 2: Anchor the Timestamp</h3>
+  <ul>
+    <li>The Merkle root is anchored to the blockchain on an hourly basis.</li>
+    <li>It takes approximately 15 minutes for the next anchor time.</li>
+    <li>After anchoring, it requires six block confirmations for the transaction to become irreversible.</li>
+  </ul>
+
+  <h3>Step 3: Monitor Timestamp Status</h3>
+  <ul>
+    <li>On the generate page, monitor the status and time indicator for completion.</li>
+    <li>Use the copy button and select button for the Merkle root.</li>
+    <li>The "Download Hash" button allows you to download the displayed hash.</li>
+  </ul>
+
+  <h3>Step 4: View Anchored Timestamps</h3>
+  <ul>
+    <li>Below the options, you'll find a list of the most recent anchored timestamps.</li>
+    <li>Use the search box to paste the Merkle root and search for individual proofs.</li>
+    <li>Details like Merkle Root and transaction hash can be used to query the Decred Blockchain.</li>
+  </ul>
+
+  <h3>Step 5: Verify Timestamp Authenticity</h3>
+  <ul>
+    <li>Once confirmations are received and the information is irreversible, the pending message is updated.</li>
+    <li>The "Download Proof" option becomes available, providing timestamp, Merkle Root, and transaction ID.</li>
+    <li>Copy the Merkle Root and go to the verify page.</li>
+    <li>Paste the Merkle Root in the provided box and click "Verify by Hash".</li>
+  </ul>
+
+  <h3>Step 6: Verify Document Authenticity</h3>
+  <ul>
+    <li>The verify log will return a clickable hash if the document is available.</li>
+    <li>Re-upload the document in the upload area and match it with the hash.</li>
+    <li>The verify log will confirm its authenticity with a clickable hash.</li>
+    <li>Use the hash to check the details of the timestamp on the Blockchain.</li>
+  </ul>
+
+  <h2>Conclusion</h2>
+  <p>Congratulations! You have learned how to use Timestamply by Decred to upload and verify files, providing a timestamp and proof of existence at a specific point
