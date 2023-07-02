@@ -42,7 +42,7 @@ When contributing code, please follow the existing code style and maintain consi
 
 ## Reporting Issues
 
-If you encounter any issues, have suggestions for improvements, or want to report a bug, please open an issue in the (GitHub issue tracker)(https://github.com/YourGitHubUsername/tutorials/issues).
+If you encounter any issues, have suggestions for improvements, or want to report a bug, please open an issue in the (GitHub issue tracker)(https://github.com/Insaf01/tutorials/issues).
 
 Provide a clear and descriptive title for the issue and include relevant details such as the steps to reproduce the problem, expected behavior, and any error messages or logs.
 
